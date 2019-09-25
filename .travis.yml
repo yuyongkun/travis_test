@@ -4,8 +4,10 @@ node_js: stable
 sudo: false
 
 cache:
+    apt: true
     directories
         - node_modules
+
 
 
 install:
